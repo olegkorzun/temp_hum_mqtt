@@ -1,6 +1,6 @@
 const mqtt = require('mqtt')
 const machineName = require('os').hostname();
-const localMQTTClient = mqtt.connect('mqtt://olegkorzun.me');
+const localMQTTClient = mqtt.connect('mqtt://63.250.63.228');
 
 let mqtt_connected = false;
 localMQTTClient.on('connect', () => {
