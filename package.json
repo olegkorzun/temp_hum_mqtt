@@ -1,0 +1,16 @@
+{
+  "name": "tp_si7021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tp_si7021.js",
+  "scripts": {
+    "start": "node tp_si7021.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleg Korzun",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^4.2.8",
+    "i2c-bus": "^5.2.2"
+  }
+}
